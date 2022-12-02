@@ -35,7 +35,7 @@ console.log(lovesCode+"\n");
 
 var faveNum = 13;
 
-if (faveNum == 13) {console.log('lucky 13!')+"\n"}
+if (faveNum === 13) {console.log('lucky 13!')+"\n"}
 
 else {console.log('not lucky 13')+"\n"};
 
@@ -46,9 +46,13 @@ else {console.log('not lucky 13')+"\n"};
   Write a for loop that prints out your faveNum 5 times.
 
 
-for (let i = 0; i < 4; i++){
-console.log(i);}
+*/
+
+
+
 
 
 //CODE HERE
-*/
+
+for (let i = 0; i < 5; i++){
+  console.log(faveNum)}

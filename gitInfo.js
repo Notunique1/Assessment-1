@@ -11,6 +11,9 @@
 
 //CODE HERE
 
+const gitdefinition ='Git Definition - Git is a distributed version control system:tracking changes in any set of files, usually used for coordinating work among programmers collaboratively.';{console.log(gitdefinition)}
+
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +21,8 @@
 */
 
 //CODE HERE
+const githubdefinition = 'Github Definition - GitHub is an online software development platform. Its used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects.';
+{console.log(githubdefinition)}
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +31,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = 'Git Init Definition(you type git init to use it) - The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command ran in a new project.';{console.log(gitInitDefinition)}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = 'Git Clone(you type git clone to use it) - git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.'; {console.log(gitCloneDefinition)}
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = 'Git Status(you type git status to use it)-List which files are staged, unstaged, and untracked.';{console.log(gitStatusDefinition)}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,7 +63,9 @@
 */
 
 //CODE HERE
+const gitAddDefinition ='Git Add(you can use this by typing git add .)-The git add is a command, which adds changes in the working directory to the staging area. With the help of this command, you tell Git that you want to add updates to a certain file in the next commit.';{console.log(gitAddDefinition)}
 
+const gitAddCode = 'The Git Add Code is git add -a';{console.log(gitAddCode)}
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,7 +77,9 @@
 
 //CODE HERE
 
+const gitCommitDefinition = 'Git Commit - Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project. Commits are created with the git commit command to capture the state of a project at that point in time.';{console.log(gitCommitDefinition)}
 
+const gitCommitCode = 'The code for an initial git commit is git commit -m "first commit"';{console.log(gitCommitCode)}
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +87,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = 'Git Push - The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It is the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.'; {console.log(gitPushDefinition)}

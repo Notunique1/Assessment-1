@@ -37,6 +37,8 @@ const pinkPrice = .55
 
 for (let i = 0; i <7; i++) { 
 
+    
+
 totalAcres += fujiAcres[i]
 totalAcres += galaAcres[i]
 totalAcres += pinkAcres[i]
@@ -117,11 +119,11 @@ letacresLeft - 174
 let days = 0
 
 while (acresLeft > 0) {
-/* daus += 1 */
+/* days += 1 */
 days++
 acresLeft -= averageDailyAcres
 
-console.log({ days}) 
+console.log({days}) 
 
 let acresLeft = 174 
 let days = 0

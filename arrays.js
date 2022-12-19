@@ -3,18 +3,18 @@
 
 const faveColors = ['red', 'green', 'black'];
 
-faveColors.splice
+const colorCopy = faveColors.slice();
 
-console.log(red);
-
-
-
-console.log(faveColors.slice(2));
+{console.log(faveColors);}
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+
+colorCopy.push('red','green','black','white')
+
+{console.log(colorCopy);}
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -22,11 +22,15 @@ console.log(faveColors.slice(2));
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const numbers = [1, 2, 3, 4, 5]
+const numbers = ['1','2','3','4','5']
+
+numbers.splice(0,1)
+numbers.splice(-2,3,'4')
+{console.log(numbers);}
 
 //CODE HERE
 
-
+numbers.s
 //////////////////PROBLEM 4////////////////////
 /* 
   Create an empty array called 'answers'.
@@ -39,4 +43,11 @@ const numbers = [1, 2, 3, 4, 5]
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
+
 // CODE HERE
+
+for(let i= 0; i < bigOrSmallArray.length;i++)
+{console.log('small');}
+
+for(let i= 0; i <= 100;i++)
+{console.log('big');}

@@ -27,22 +27,22 @@
     in cents. 
 */
 
-//const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
-//const galaAcres = [5, 2, 4, 3, 6, 2, 4]
-//const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
+const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
+const galaAcres = [5, 2, 4, 3, 6, 2, 4]
+const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 
-//const fujiPrice = .89 
-//const galaPrice = .64
-//const pinkPrice = .55
+const fujiPrice = .89 
+const galaPrice = .64
+const pinkPrice = .55
 
-//totalAcres += fujiAcres[i]
-//totalAcres += galaAcres[i]
-//totalAcres += pinkAcres[i]
+totalAcres += fujiAcres[i]
+totalAcres += galaAcres[i]
+totalAcres += pinkAcres[i]
 
-//const totalAcres = totalFujiAcres + totalGalaAcres + totalPinkAcres 
+const totalAcres = totalFujiAcres + totalGalaAcres + totalPinkAcres 
 
 
-//console.log({totalAcres})
+console.log({totalAcres})
 
 // PROBLEM 1
 
@@ -57,26 +57,26 @@
 */
 
 // CODE HERE
-//const fujiAcres = [2, 3, 3, 2, 2, 2, 1];
-//let fujiAcresTotal = 0;
- //for(let i = 0; i <fujiAcres.length;i++){
-    //fujiAcresTotal += fujiAcres[i];
- //}
- //console.log(fujiAcresTotal);
+const fujiAcres = [2, 3, 3, 2, 2, 2, 1];
+let fujiAcresTotal = 0;
+ for(let i = 0; i <fujiAcres.length;i++){
+    fujiAcresTotal += fujiAcres[i];
+ }
+ console.log(fujiAcresTotal);
 
-//const galaAcres = [5, 2, 4, 3, 6, 2, 4];
-//let galaApplesTotal = 0;
-//for(let i = 0; i < galaAcres.length; i++){
-    //galaApplesTotal += galaAcres[i];
-//}
-//console.log(galaApplesTotal);
+const galaAcres = [5, 2, 4, 3, 6, 2, 4];
+let galaApplesTotal = 0;
+for(let i = 0; i < galaAcres.length; i++){
+    galaApplesTotal += galaAcres[i];
+}
+console.log(galaApplesTotal);
 
-//const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
-//let pinkApplesTotal = 0
-//for (let i = 0; i < pinkAcres.length; i++){
-  // pinkApplesTotal += pinkAcres[i];
-//}
-//console.log(pinkApplesTotal);
+const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
+let pinkApplesTotal = 0
+for (let i = 0; i < pinkAcres.length; i++){
+   pinkApplesTotal += pinkAcres[i];
+}
+console.log(pinkApplesTotal);
 
 
 // PROBLEM 2
@@ -96,11 +96,11 @@
 */
 
 // CODE HERE
-//const totalAcres = fujiAcresTotal + galaApplesTotal + pinkApplesTotal
-//console.log(totalAcres)
-//const averageDailyAcres = totalAcres / 7
+const totalAcres = fujiAcresTotal + galaApplesTotal + pinkApplesTotal
+console.log(totalAcres)
+const averageDailyAcres = totalAcres / 7
 
-//console.log(averageDailyAcres)
+console.log(averageDailyAcres)
 
 
 
@@ -135,25 +135,25 @@ letacresLeft - 174
 let days = 0
 
 while (acresLeft > 0) {
-/* days += 1 */
-//days++
-//acresLeft -= averageDailyAcres
+days += 1 */
+days++
+acresLeft -= averageDailyAcres
 
-//console.log({days}) 
+console.log({days}) 
 
-//let acresLeft = 174 
-//let days = 0
+let acresLeft = 174 
+let days = 0
 
 // CODE HERE
-//letacresLeft = 174
-//let days = 0
+letacresLeft = 174
+let days = 0
 
-//while (acresLeft > 0) {
- //days += 1 
-//days++
-//acresLeft -= averageDailyAcres
-//}
-//console.log(days) 
+while (acresLeft > 0) {
+ days += 1 
+days++
+acresLeft -= averageDailyAcres
+}
+console.log(days) 
 
 
 
@@ -185,26 +185,26 @@ let fujiTons = fujiAcres
 */
 
 // CODE HERE
-//let fujiAcres=15
- //let fujiTons = fujiAcres * 6.5
-//for ( let i = 0; 1 < fujiAcres.length; i++) { 
+let fujiAcres=15
+ let fujiTons = fujiAcres * 6.5
+for ( let i = 0; 1 < fujiAcres.length; i++) { 
 
-//}
- //console.log(fujiAcres,fujiTons);
+}
+ console.log(fujiAcres,fujiTons);
 
-//let galaAcres = 26
-    //let GalaTons = galaAcres * 6.5
-    //for (let i = 0; 1 < galaAcres.length; i++){
+let galaAcres = 26
+    let GalaTons = galaAcres * 6.5
+    for (let i = 0; 1 < galaAcres.length; i++){
 
-    //}
-//console.log(galaAcres,GalaTons);
+    }
+console.log(galaAcres,GalaTons);
 
-//let pinkAcres = 22
-    //let pinkTons = pinkAcres * 6.5
-    //for (let i = 0; 1 < pinkAcres.length; i++){
+let pinkAcres = 22
+    let pinkTons = pinkAcres * 6.5
+    for (let i = 0; 1 < pinkAcres.length; i++){
 
-    //}
-    //console.log(pinkAcres,pinkTons);
+    }
+    console.log(pinkAcres,pinkTons);
 // PROBLEM 5
 
 /*
@@ -223,11 +223,11 @@ let fujiTons = fujiAcres
 
 // CODE HERE 
 
-//let fujiPounds = 2000 * 97.5
- //let galaPounds = 2000 * 169
- //let pinkPounds = 2000 * 143
+ let fujiPounds = 2000 * 97.5
+ let galaPounds = 2000 * 169
+ let pinkPounds = 2000 * 143
 
-//console.log(fujiPounds,galaPounds,pinkPounds);
+console.log(fujiPounds,galaPounds,pinkPounds);
 
 
 
